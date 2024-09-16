@@ -1,0 +1,16 @@
+{
+  "name": "cadastro-carros",
+  "version": "1.0.0",
+  "description": "API para cadastro de carros",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "dev":"node --watch --no-warnings index.js"
+  },
+  "author": "Prof. Jackson Sá",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
